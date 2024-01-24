@@ -1,5 +1,7 @@
 function getMessage(age) {
-    return age >= 14 && age <= 90;
+    // return age >= 14 && age <= 90;  hw1
+
+   return age < 14 || age > 90;  //hw2
 
 }
 
